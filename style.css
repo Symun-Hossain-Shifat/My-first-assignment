@@ -116,6 +116,7 @@ color:white;
     color: white;
     font-size: 20px;
     margin: 16px auto;
+   
 }
 .second-button{
     justify-content: center;
@@ -149,4 +150,91 @@ color:white;
 }
 .third-button:hover{
     color: black;
+}
+#section2{
+    margin: 50px 0px;
+    text-align: center;
+}
+#section2 h2{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+#section2 p{
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.434);
+    font-weight: 600;
+}
+#container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.item{
+    flex-basis: 20%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.475);
+   
+}
+.item img{
+    background-color: #F95555;
+    border-radius: 30px;
+    padding: 5px 5px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.item h5{
+    font-size: 24px;
+    font-weight:700 ;
+}
+.item p{
+    margin: 16px auto;
+    font-size: 16px;
+     color:rgba(0, 0, 0, 0.434);
+}
+.unique{
+    padding: 15px 0px;
+}
+#box1{
+    display: flex;
+    gap: 30px;
+    margin: 100px 180px;
+   
+}
+.box1{
+    border: none;
+    flex-basis: 40% 60%;
+    padding: 10px 10px;
+    align-items: center;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+}
+.box1 ul{
+    list-style: none;
+
+}
+.box1 h6{
+    margin-top: 160px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+.box1 h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.box1 p{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.434);
+    margin:16px 0px ;
+}
+.box1 li{
+    font-size: 16px;
+    font-weight: 600;
+   align-content: center;
+   margin-top: 7px;
+   
 }
