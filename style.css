@@ -76,3 +76,77 @@ transform:scale(1.1) ;
     color: black;
     line-height: 152%;
 }
+#hero{
+    background-image:url(image/hero-bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px;
+    max-height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 270px 120px;
+
+}
+.first-button{
+    margin: 16px 0px;
+    color: #30B868; 
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+
+}
+.first-button:hover{
+background-color: #30b869f0;
+color:white;
+}
+#hero h1{
+    font-size: 72px;
+    font-weight: bold;
+    color:white;
+}
+#hero span{
+    color: #30B868;
+}
+#hero p{
+    color: white;
+    font-size: 20px;
+    margin: 16px auto;
+}
+.second-button{
+    justify-content: center;
+ align-items: center;
+    font-size: 16px;
+    padding: 12px 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #30B868;
+    border-radius: 5px;
+    margin: 16px 5px;
+    border: none;
+    cursor: pointer;
+ 
+
+}
+.second-button:hover{
+    background-color: rgba(255, 0, 0, 0.72) ;
+}
+.third-button{
+     justify-content: center;
+ align-items: center;
+    font-size: 16px;
+    padding: 14px 15px;
+    font-weight: 600;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 16px 5px;
+    background: none;
+}
+.third-button:hover{
+    color: black;
+}
