@@ -120,7 +120,7 @@ color:white;
 }
 .second-button{
     justify-content: center;
- align-items: center;
+align-items: center;
     font-size: 16px;
     padding: 12px 15px;
     font-weight: 600;
@@ -133,6 +133,7 @@ color:white;
  
 
 }
+
 .second-button:hover{
     background-color: rgba(255, 0, 0, 0.72) ;
 }
@@ -201,7 +202,7 @@ color:white;
 #box1{
     display: flex;
     gap: 30px;
-    margin: 100px 180px;
+    margin: 100px 130px;
    
 }
 .box1{
@@ -270,8 +271,53 @@ color:white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
 #challange button:hover{
     background-color: rgba(255, 0, 0, 0.72);
+}
+
+footer{
+    background-color: #001931;
+    padding: 50px 0px;
+}
+#footer{
+    display: flex;
+    margin: 0px 120px;
+    padding: 85px 0px;
+    border-bottom: 2.5px solid rgba(255, 255, 255, 0.266);
+}
+.footer{
+    flex-basis: 50%;
+}
+#social-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+
+}
+#social-icon img{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.link{
+    text-align: right;
+}
+.footer h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-right: 35px;
+    margin-bottom: 16px;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+   
 }
